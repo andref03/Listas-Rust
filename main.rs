@@ -10,5 +10,7 @@ fn main() {
     println!("Lista original: {:?}", numeros);
 
     executar_estrategia(&mut numeros, estrategias::ordemCrescente::ordemCrescente);
+
+    executar_estrategia(&mut numeros, estrategias::removeDuplicatas::removeDuplicatas);
     
 }
