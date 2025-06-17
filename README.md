@@ -13,10 +13,10 @@ A função **`executar_estrategia`** permite executar uma estratégia em um veto
 fn executar_estrategia(lista: &mut Vec<i64>, estrategia: fn(&mut Vec<i64>));
 ```
 
-### 1. `ordemCrescente` (Ordenação por Insertion Sort)
-A função **`ordemCrescente`** é responsável por ordenar um vetor de números inteiros em ordem crescente usando o algoritmo **Insertion Sort**. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
+### 1. `ordena_decrescente (Ordenação por Insertion Sort)
+A função **`ordena_decrescente`** é responsável por ordenar um vetor de números inteiros em ordem decrescente usando o algoritmo **Insertion Sort**. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
 
 **Assinatura:**
 ```rust
-fn ordemCrescente(lista: &mut Vec<i64>)
+fn ordena_decrescente(lista: &mut Vec<i64>) 
 ```
