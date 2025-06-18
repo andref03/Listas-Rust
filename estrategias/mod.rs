@@ -1,2 +1,2 @@
-mod pub ordemCrescente;
-mod pub removeDuplicatas;
+pub mod ordemCrescente;
+pub mod removeDuplicatas;
