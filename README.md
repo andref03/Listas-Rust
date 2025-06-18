@@ -20,3 +20,5 @@ A função **`ordemCrescente`** é responsável por ordenar um vetor de números
 ```rust
 fn ordemCrescente(lista: &mut Vec<i64>)
 ```
+### 2. ordena_decrescente (Ordenação por Insertion Sort)
+A função **ordena_decrescente** é responsável por ordenar um vetor de números inteiros em ordem decrescente usando o algoritmo *Insertion Sort*. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
