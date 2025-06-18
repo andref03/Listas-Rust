@@ -20,10 +20,15 @@ A função **`ordemCrescente`** é responsável por ordenar um vetor de números
 ```rust
 fn ordemCrescente(lista: &mut Vec<i64>)
 ```
-### 1. `removeDuplicatas` 
+
+### 2. ordena_decrescente (Ordenação por Insertion Sort)
+A função **ordena_decrescente** é responsável por ordenar um vetor de números inteiros em ordem decrescente usando o algoritmo *Insertion Sort*. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
+
+### 3. `removeDuplicatas` 
 A função **`removeDuplicatas`** implementa um algoritmo eficiente para remover elementos duplicados de um vetor (Vec<i64>), preservando a ordem da primeira aparição de cada elemento. Para garantir um desempenho otimizado, a função emprega um HashSet para rastrear os valores já vistos. A remoção dos itens é realizada através do método "retain", que avalia cada elemento e o mantém apenas se for a primeira vez que ele é encontrado.
 
 **Assinatura:**
 ```rust
 fn removeDuplicatas(lista: &mut Vec<i64>)
 ```
+
