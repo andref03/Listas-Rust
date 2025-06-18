@@ -11,6 +11,7 @@ fn main() {
 
     executar_estrategia(&mut numeros, estrategias::ordemCrescente::ordemCrescente);
     executar_estrategia(&mut numeros, estrategias::ordena_decrescente::ordena_decrescente);
+    executar_estrategia(&mut numeros, estrategias::filtrar_pares::filtrar_pares);
     executar_estrategia(&mut numeros, estrategias::removeDuplicatas::removeDuplicatas);
     
 }
