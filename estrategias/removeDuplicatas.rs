@@ -15,7 +15,7 @@
 
 
 use std::collections::HashSet;//para remover duplicatas
-pub fn removeDuplicatas(lista: &mut Vec<i64>) {
+fn removeDuplicatas(lista: &mut Vec<i64>) {
     // 1. Cria um HashSet para rastrear os elementos que já vimos.
     let mut vistos = HashSet::new();
 
