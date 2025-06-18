@@ -24,6 +24,11 @@ fn ordemCrescente(lista: &mut Vec<i64>)
 ### 2. ordena_decrescente (Ordenação por Insertion Sort)
 A função **ordena_decrescente** é responsável por ordenar um vetor de números inteiros em ordem decrescente usando o algoritmo *Insertion Sort*. Esse algoritmo percorre o vetor e insere cada elemento na posição correta dentro da parte já ordenada.
 
+**Assinatura:**
+```rust
+fn ordem_decrescente(lista: &mut Vec<i64>)
+```
+
 ### 3. `removeDuplicatas` 
 A função **`removeDuplicatas`** implementa um algoritmo eficiente para remover elementos duplicados de um vetor (Vec<i64>), preservando a ordem da primeira aparição de cada elemento. Para garantir um desempenho otimizado, a função emprega um HashSet para rastrear os valores já vistos. A remoção dos itens é realizada através do método "retain", que avalia cada elemento e o mantém apenas se for a primeira vez que ele é encontrado.
 
@@ -32,3 +37,10 @@ A função **`removeDuplicatas`** implementa um algoritmo eficiente para remover
 fn removeDuplicatas(lista: &mut Vec<i64>)
 ```
 
+### 4. `filtrar_pares` 
+A função **`filtrar_pares`** recebe um vetor mutável de inteiros e filtra apenas os números pares. Especificamente, a função contém um loop, o qual permite a iteração por todos os elementos do vetor. Dentro deste loop, há uma condição que verifica se o resto da divisão do elemento atual por 2 resulta em zero. Caso sim, este elemento é adicionado no vetor de ´pares´. Neste caso, é possível perceber também que, se um elemento repetido aparecer, ele será novamente verificado e, se for par, será adicionado no vetor de ´pares´ da mesma forma. Ao término da iteração, um ponteiro do vetor principal recebe o vetor de ´pares´. Ou seja, o vetor original é atualizado. Como se trata de um ponteiro, a alteração é refletida em qualquer espaço do código, inclusive na função ´main´.
+
+**Assinatura:**
+```rust
+fn filtrar_pares(lista: &mut Vec<i64>)
+```
