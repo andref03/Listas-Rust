@@ -6,7 +6,7 @@ fn executar_estrategia(lista: &mut Vec<i64>, estrategia: fn(&mut Vec<i64>)) {
 }
 
 fn main() {
-    let mut numeros : Vec<i64> = vec![5, 5, 1, 0, 9, 8, 6, 2, 8, 5, 2, 9, 1, 0, 4, 4];
+    let mut numeros : Vec<i64> = vec![5, 5, 1, 0, 9, 8, 6, 1, 4, 3, 8, 9, 0 2, 8, 5, 2, 9, 1, 0, 4, 4];
     println!("Lista original: {:?}", numeros);
 
     executar_estrategia(&mut numeros, estrategias::ordemCrescente::ordemCrescente);
