@@ -20,3 +20,10 @@ A função **`ordemCrescente`** é responsável por ordenar um vetor de números
 ```rust
 fn ordemCrescente(lista: &mut Vec<i64>)
 ```
+### 1. `removeDuplicatas` 
+A função **`removeDuplicatas`** implementa um algoritmo eficiente para remover elementos duplicados de um vetor (Vec<i64>), preservando a ordem da primeira aparição de cada elemento. Para garantir um desempenho otimizado, a função emprega um HashSet para rastrear os valores já vistos. A remoção dos itens é realizada através do método "retain", que avalia cada elemento e o mantém apenas se for a primeira vez que ele é encontrado.
+
+**Assinatura:**
+```rust
+fn removeDuplicatas(lista: &mut Vec<i64>)
+```
